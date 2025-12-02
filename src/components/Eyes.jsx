@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect, useState } from 'react'
 
 const Eyes = () => {
@@ -21,14 +20,14 @@ const Eyes = () => {
         <div className='eyes w-full h-screen overflow-hidden'>
             <div data-scroll data-scroll-speed="-.7" className='w-full h-full bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg")] relative'>
 
-                <div data-scroll data-scroll-speed="0.7" className='absolute top-1/3 left-1/3 -translate-y-[50%] flex gap-10 '>
+                <div data-scroll data-scroll-speed="0.7" className='absolute top-1/3 left-1/2 md:left-1/3 -translate-y-[50%] flex gap-6 md:gap-10 '>
 
-                    <div className='w-[13vw] h-[13vw] bg-zinc-100 rounded-full flex justify-center items-center'>
+                    <div className='w-24 h-24 md:w-[13vw] md:h-[13vw] bg-zinc-100 rounded-full flex justify-center items-center'>
                         <div style={{transformOrigin: '55% 55%' , transform: `rotate(${rotate}deg)`}} className='w-2/3 h-2/3 bg-zinc-900 rounded-full flex justify-center'>
                             <div className='w-1/5 h-1/5 bg-zinc-100 rounded-full'></div>
                         </div>
                     </div>
-                    <div className='w-[13vw] h-[13vw] bg-zinc-100 rounded-full flex justify-center items-center'>
+                    <div className='w-24 h-24 md:w-[13vw] md:h-[13vw] bg-zinc-100 rounded-full flex justify-center items-center'>
                         <div style={{transformOrigin: '55% 55%' , transform: `rotate(${rotate}deg)`}} className='w-2/3 h-2/3 bg-zinc-900 rounded-full flex justify-center'>
                             <div className='w-1/5 h-1/5 bg-zinc-100 rounded-full'></div>
                         </div>

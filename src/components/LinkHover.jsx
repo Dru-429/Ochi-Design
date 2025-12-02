@@ -24,14 +24,14 @@ const LinkHover = ({index, item}) => {
                 className={`text-lg font-light capitalize relative cursor-pointer`}
             > {item} </a>
             <motion.div
-                className="w-full h-[1px] bg-zinc-100"
+                className="w-full h-[1px]"
                 initial={{ opacity: 0 }}
                 animate={controls}
                 transition={{ duration: 0.8 }}
             >
 
                 <motion.div
-                    className='w-4 h-[2px] bg-zinc-900 relative left-0'
+                    className='w-4 h-[2px] bg-zinc-200 relative left-0'
                     initial={{ opacity: 1, left: 0 }}
                     animate={conntrolBar}
                     transition={{ ease:easeIn, duration: 0.5, delay: 0 }}
